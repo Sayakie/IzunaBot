@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "name": "izunabot",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "Sayakie <sayakie@kakao.com>",
+  "scripts": {
+    "start": "node --require esm --require sucrase/register/ts src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "AGPL-3.0-only",
+  "engines": {
+    "node": "^14.x || 15.x || 16.x",
+    "pnpm": "^6.9.x"
+  },
+  "devEngines": {
+    "node": ">=14.x",
+    "pnpm": "^6.2.5"
+  },
+  "esm": {
+    "await": true
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "discord.js": "github:discordjs/discord.js#cbd7f2b9aa44a9240947ed716d0e72257ac499f7",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "sucrase": "^3.20.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.3"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "esnext",
+    "baseUrl": "./",
+    "outDir": "./out/",
+    "lib": [
+      "esnext",
+      "es2020"
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "package.json": [
+        "./package.json"
+      ]
+    },
+    "typeRoots": [
+      "typings/",
+      "vendor/@types",
+      "node_modules/@types"
+    ],
+    "strict": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "importsNotUsedAsValues": "error",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/"
+  ]
+}
